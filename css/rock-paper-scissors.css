@@ -20,6 +20,14 @@ body{
   margin-right: 10px;
   cursor: pointer;
 }
+.result{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+.score{
+  margin-top: 60px;
+}
 .reset-btn{
   background-color: white;
   border: none;
