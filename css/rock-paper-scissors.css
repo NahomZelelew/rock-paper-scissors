@@ -1,0 +1,36 @@
+body{
+  background-color: rgb(25,25,25);
+  color: white;
+  font-family: Arial;
+}
+.title{
+  font-size: 30px;
+  font-weight: bold;
+}
+.icon{
+  height: 50px;
+
+}
+.btns{
+  background-color: transparent;
+  border: 3px solid white;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.reset-btn{
+  background-color: white;
+  border: none;
+  font-size: 16px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+.auto-play{
+  background-color: white;
+  border: none;
+  font-size: 16px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
