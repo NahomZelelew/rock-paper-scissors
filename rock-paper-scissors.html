@@ -8,11 +8,27 @@
 </head>
 <body>
   <p class="title">Rock Paper Scissors</p>
-  <button class="btns"><img class="icon" src="images/rock-emoji.png" alt="Rock"></button>
-  <button class="btns"><img class="icon" src="images/paper-emoji.png" alt="Paper"></button>
-  <button class="btns"><img class="icon" src="images/scissors-emoji.png" alt="Scissors"></button>
-  <button class="reset-btn">Reset Score</button>
-  <button class="auto-play">Auto Play</button>
+  <button class="btns" onclick="playGame('rock');"><img class="icon" src="images/rock-emoji.png" alt="Rock"></button>
+
+  <button class="btns" onclick="playGame('Paper');"><img class="icon" src="images/paper-emoji.png" alt="Paper"></button>
+
+  <button class="btns" onclick="playGame('Scissors');"><img class="icon" src="images/scissors-emoji.png" alt="Scissors"></button>
+  
+  <p id="js-result" class="result"></p>
+
+  <p id="js-moves"></p>
+
+  <p id="js-score" class="score"></p>
+
+  <button onclick="score.wins = 0,
+  score.losses = 0,
+  score.ties = 0
+  localStorage.removeItem('score');
+  updateScore();" class="reset-btn">Reset Score</button>
+
+<button class="auto-play" onclick="autoPlay();">Auto Play</button>
+
+
 
   <script src="js/rock-paper-scissors.js"></script>
 </body>
