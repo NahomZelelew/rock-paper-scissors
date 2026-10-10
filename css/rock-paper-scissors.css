@@ -21,6 +21,7 @@ body{
   border-radius: 60px;
   margin-right: 10px;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .result{
